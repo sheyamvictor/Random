@@ -1,13 +1,27 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-image: linear-gradient(90deg,#b0aee0,#bc7d88);
+}
+
+.Rstyle{
+  color: rgb(241, 241, 241);
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 300px;
+  
+}
+
+button{
+  background-color: rgb(87, 87, 116);
+  color: rgb(254, 255, 255);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 900;
 }
